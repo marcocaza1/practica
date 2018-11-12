@@ -29,20 +29,25 @@ public class PracticaGitHub {
         caracter=sc.nextLine().charAt(0);
         
         
+        cont = caracter(cadena, caracter, cont);
+        System.out.println("se tiene: "+cont);
+        
+        // TODO code application logic here
+    
+       
+    }
+
+    public static int caracter(String cadena, char caracter, int cont) {
         for(int i=0;i<cadena.length();i++){
             char letra=cadena.charAt(i);
             //letra=Character.toUpperCase(letra);
             if(letra==caracter){
                 cont++; 
             }
-               
+            
             
         }
-        System.out.println("se tiene: "+cont);
-        
-        // TODO code application logic here
-    
-       
+        return cont;
     }
     
 }
