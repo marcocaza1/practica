@@ -38,8 +38,8 @@ public class PracticaGitHub {
     }
 
     public static int caracter(String cadena, char caracter, int cont) {
-        for(int i=0;i<cadena.length();i++){
-            char letra=cadena.charAt(i);
+        for(int c=0;c<cadena.length();c++){
+            char letra=cadena.charAt(c);
             //letra=Character.toUpperCase(letra);
             if(letra==caracter){
                 cont++; 
